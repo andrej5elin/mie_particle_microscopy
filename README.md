@@ -23,11 +23,13 @@ Optional, but highly recommended for faster computation on GPUs:
 
 I recommend using anaconda to build [jupyter lab](https://jupyter.org/install).
 
+```console
 $ conda create --name microscope
 $ conda activate microscope
 $ conda install numpy scipy matplotlib numba miepython
 $ conda install jupyter
 $ jupyter lab
+```
 
 Download the jupyterlab notebook from the repository and run the code.
 
