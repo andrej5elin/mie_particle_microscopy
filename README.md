@@ -1,5 +1,5 @@
 # mie_particle_microscopy
-A jupyterlab-based tool for simulating optical microscope images of small particles inside a capillary using Mie scattering theory.
+A jupyterlab-based tool for simulating optical microscope images of small particles using Mie scattering theory.
 
 ![alttext](https://github.com/andrej5elin/mie_particle_microscopy/blob/main/particles.png?raw=true)
 
