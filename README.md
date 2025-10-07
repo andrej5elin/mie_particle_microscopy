@@ -4,13 +4,9 @@ A jupyterlab-based tool for simulating optical microscope image formation of sma
 
 
 We apply principles of Fourier optics to compute image at the magnified side of the lens transform 
-from the field in the Fourier plane of the microscope, which we derive using Mie scattering theory. The method allows
-one to set the microscope focal plane with respect to the capilary wall and set the numerical aperture and bandwidth of the illuminant
-to simulate temporal and spatial coherence of the illuminant. We also simulate sensor acquisition to convert the field to measured
-intensity and apply photon shot noise and simulate ADC conversion. 
+from the field in the Fourier plane of the microscope, which we derive using Mie scattering theory. The method allows one to set the microscope focal plane with respect to the capilary wall and set the numerical aperture and bandwidth of the illuminant to simulate temporal and spatial coherence of the illuminant. We also simulate sensor acquisition and convert the field to a measured intensity and apply photon shot noise, and we simulate ADC conversion. 
 
-In the current implementation, the technique is restricted to small illuminant NA and unpolarized input (and output) light. Below is a
-simulation of 4000 Polystyren (PS) particles with a diameter of 300 nm placed inside a 400 micron thick capillary filled with water. Microscope magnification is 60x and we use green diode with a bandwidth of 28 nm and central wavelength of 550 nm and 0.15 condenser NA.
+In the current implementation, the technique is restricted to small illuminant NA and unpolarized input (and output) light. Below is a simulation of 4000 Polystyren (PS) particles with a diameter of 300 nm placed inside a 400 micron thick capillary filled with water. Microscope magnification is 60x and we use a green diode with a bandwidth of 28 nm and with a central wavelength of 550 nm and we use 0.15 condenser NA.
 
 ![alttext](https://github.com/andrej5elin/mie_particle_microscopy/blob/main/particles.png?raw=true)
 
