@@ -1,4 +1,7 @@
+[![DOI](https://zenodo.org/badge/1070628061.svg)](https://doi.org/10.5281/zenodo.17283936)
+
 # mie_particle_microscopy
+
 
 A jupyterlab-based tool for simulating optical microscope image formation of small particles dispersed in liquid.
 
