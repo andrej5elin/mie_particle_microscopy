@@ -1,4 +1,7 @@
 # mie_particle_microscopy
+
+> **Notice:** Development has moved to [miepom](https://github.com/andrej5elin/miepom). This repository is no longer maintained.
+
 [![DOI](https://zenodo.org/badge/1070628061.svg)](https://doi.org/10.5281/zenodo.17283936)
 
 
